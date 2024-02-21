@@ -1,0 +1,73 @@
+body {
+  background-color: #0f0f0f;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+@keyframes HeaderColor {
+  100%,0% {color: red;}
+  15%  {color: orange;}
+  30%  {color: yellow}
+  45% {color: green}
+  60% {color: blue}
+  75% {color: purple}
+  90% {color: violet}
+}
+
+h1 {
+  color: #00ff00;
+  text-align: center;
+  font-size: 48px;
+  animation-name: HeaderColor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+a {
+  color: #00ff00;
+  font-weight: bold;
+  border: 2px solid;
+  padding: 5px;
+  border-color: #00ff00;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 10px;
+}
+
+a:hover {
+  color: #ff00ff;
+  background-color: #005500;
+}
+
+ul {
+  list-style-type: circle;
+  width: 100%;
+}
+
+ul li {
+  background: #18212b;
+  color: #00ff00;
+  margin: 5px;
+  font-size: 12px;
+  width: 92%;
+}
+
+ul li:hover {
+  background: #445364;
+  color: #8c00ff;
+  margin: 0px;
+  font-size: 22px;
+}
+
+table {
+  width: 100%;
+  border : 5px ridge;
+  border-color: #00ff00;
+}
+
+table th {
+  background-color: #005500;
+  text-shadow: 2px 2px 1px #000000;
+  color: #ffdd00;
+}
